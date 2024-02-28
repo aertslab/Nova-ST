@@ -16,4 +16,6 @@ First we will detect the tiles that are covered by the tissue that has been prof
 
 Next, we use `2.2.Mapping.ipynb`, this utilizes the whitelist created in the previous step to generate a gene expression matrix per HDMI. Using `2.3.StatsCircle.ipynb`, we can create a close approximation of the cirlce plots provided in the HTML reports from STomics samples.
 
-Finally, we use `2.4.gefCreation.ipynb` to create a GEF formatted file of the sample that can be loaded into python using the `stereopy` package.
+Finally, we use `2.4.gefCreation.ipynb` to create a GEF formatted file of the sample that can be loaded into python using the `stereopy` package as well as a png of the spatial location of UMIs detected, which can be used to assess sample quality.
+
+Processing time heavily depends upon the depth of sequencing. A shallowly sequenced sample (~100 million reads 32bp R1, 75bp R2) can be processed from raw data to GEF file within approximately 6-8 hours on a 2 socket sever contiaining 2xIntel(R) Xeon(R) Platinum 8360Y.
