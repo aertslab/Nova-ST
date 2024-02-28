@@ -18,4 +18,4 @@ Next, we use `2.2.Mapping.ipynb`, this utilizes the whitelist created in the pre
 
 Finally, we use `2.4.gefCreation.ipynb` to create a GEF formatted file of the sample that can be loaded into python using the `stereopy` package as well as a png of the spatial location of UMIs detected, which can be used to assess sample quality.
 
-Processing time heavily depends upon the depth of sequencing. A shallowly sequenced sample (~100 million reads 32bp R1, 75bp R2) can be processed from raw data to GEF file within approximately 6-8 hours on a 2 socket sever contiaining 2xIntel(R) Xeon(R) Platinum 8360Y.
+Processing time heavily depends upon the depth of sequencing. A shallowly sequenced sample (~100 million reads 32bp R1, 75bp R2) can be processed from raw data to GEF file within approximately 6-8 hours on a 2 socket sever contianing 2x Intel(R) Xeon(R) Platinum 8360Y.
